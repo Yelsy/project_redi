@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.6.2",
+=======
+>>>>>>> 442635c6746fe51300186bb1ed4e542e903c7b50
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "autoprefixer": "^10.0.1",
+=======
+    "autoprefixer": "^10.4.16",
+>>>>>>> 442635c6746fe51300186bb1ed4e542e903c7b50
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "postcss": "^8",
