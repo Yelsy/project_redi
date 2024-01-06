@@ -1,8 +1,13 @@
-
-
-
-
-
+## Introduction
+Through this web application, we will assist people by promoting assertive communication that inspires
+people to live connected to the frequency of love, joy, the pursuit of truth, and the transcendence of ego and cults.
+## Tecnologies
+- Flask
+- SQLAlchemy
+- Flask-JWT-Extended 
+- Next
+- Tailwind CSS
+- MySQL
 
 ## Installation
 
@@ -16,6 +21,7 @@
    You can create one by running the following command in the backend directory:
 
    **Navigate to the backend directory using the following command:**
+   ```bash
    cd backend
    python -m venv venv
    .\venv\Scripts\activate  # (Windows)
@@ -38,9 +44,31 @@
     ```bash
     npm install
 
-4. ## Start Frontend Development Server
+4. # Start Frontend Development Server
 
 Execute the following command to launch the development server for the frontend:
-
     ```bash
+    npm run dev
+
+## Configuration
+
+### Backend Configuration (Flask)
+
+1. **Environment Variables:**
+   Create a `.env` file in the root of the `backend` directory. Include the following environment variables:
+
+   ```env
+   SQLALCHEMY_DATABASE_URI=your_database_url  # Specify your database connection URL
+
+2. Ensure that you have the Firebase credentials file (dev-proyect-redi-firebase-adminsdk-fu8it-8ae628d9ad.json)
+   in the root of your backend directory.
+   
+3. **Running the Application**
+    ```bash
+    # Start the backend server
+    cd backend
+    python run.py
+
+    # Start the frontend development server
+    cd frontend
     npm run dev
