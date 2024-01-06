@@ -39,8 +39,7 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
 
 2. **Navigate to the Frontend Directory:**
    Move to the frontend directory using the following command:
-
-   ```bash
+  ```bash
    cd frontend
 
 3. **Execute the following command to install the required Node.js packages and dependencies for the frontend:**
@@ -66,10 +65,17 @@ Execute the following command to launch the development server for the frontend:
 2. Ensure that you have the Firebase credentials file (dev-proyect-redi-firebase-adminsdk-fu8it-8ae628d9ad.json)
    in the root of your backend directory.
 
+3. **Backend Configuration Details (config.py):**
+   The backend configuration is managed through the `config.py` file in the `backend` directory. Below is a summary of key configurations:
+
+     - `DEBUG`: Set to `True` in `DevelopmentConfig` for debugging.
+     - `SQLALCHEMY_DATABASE_URI`: URL for connecting to your database. Specified in the `.env` file.
+     - `SECRET_KEY` and `JWT_SECRET_KEY`: Used for security purposes.
+
 3. **Running the Application**
     ```bash
     # Start the backend server
-    cd backend
+    cd backend/redi
     python run.py
 
     # Start the frontend development server
