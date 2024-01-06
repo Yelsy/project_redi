@@ -39,16 +39,16 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
 
 2. **Navigate to the Frontend Directory:**
    Move to the frontend directory using the following command:
-  ```bash
+   ```bash
    cd frontend
 
 3. **Execute the following command to install the required Node.js packages and dependencies for the frontend:**
-    ```bash
+  ```bash
     npm install
 
 4. ### Start Frontend Development Server
 
-Execute the following command to launch the development server for the frontend:
+*Execute the following command to launch the development server for the frontend:*
     ```bash
     npm run dev
 
