@@ -32,3 +32,12 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
     pip install -r requirements.txt
 
 ### Frontend Setup (Next.js)
+
+1. **Install Node.js and npm:**
+   Begin by installing Node.js and npm, the Node.js package manager, on your system.
+    You can download and install them from [nodejs.org](https://nodejs.org/).
+
+2. **Navigate to the Frontend Directory:**
+   Move to the frontend directory using the following command:
+   ```bash
+   cd frontend
