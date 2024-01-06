@@ -46,3 +46,12 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
   ```bash
     npm install
 
+## Configuration
+
+### Backend Configuration (Flask)
+
+1. **Environment Variables:**
+   Create a `.env` file in the root of the `backend` directory. Include the following environment variables:
+
+   ```env
+   SQLALCHEMY_DATABASE_URI=your_database_url  # Specify your database connection URL
