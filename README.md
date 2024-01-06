@@ -20,7 +20,7 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
    It's recommended to use a virtual environment to isolate the project dependencies.
    You can create one by running the following command in the backend directory:
 
-*Navigate to the backend directory using the following command:*
+- Navigate to the backend directory using the following command:
     ```bash
     cd backend
     python -m venv venv
