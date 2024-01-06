@@ -43,6 +43,7 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
    cd frontend
 
 3. **Execute the following command to install the required Node.js packages and dependencies for the frontend:**
+- install the following command
   ```bash
     npm install
 
