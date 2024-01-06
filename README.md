@@ -41,3 +41,8 @@ people to live connected to the frequency of love, joy, the pursuit of truth, an
    Move to the frontend directory using the following command:
    ```bash
    cd frontend
+
+3. **Execute the following command to install the required Node.js packages and dependencies for the frontend:**
+  ```bash
+    npm install
+
