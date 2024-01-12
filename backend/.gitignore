@@ -1,31 +1,11 @@
-# Entorno virtual
-venv/
-
-# Archivos de configuración específicos de la IDE
 .idea/
 .vscode/
-
-# Archivos pycache
 __pycache__/
-*.pyc
-
-# Archivos de registro
-*.log
-
-# Archivo de base de datos SQLite
-*.db
-
-# Archivos de configuración local
-instance/
-
-# Carpeta de carga de archivos estáticos
-static/uploads/
-
-# Carpeta de registros
-logs/
-
-# Archivos de configuración de sistema
-.DS_Store
-
-# Archivos de caché
-.cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+docs/_build/
+dist/
+venv/
+dev-proyect-redi-firebase-adminsdk-fu8it-8ae628d9ad.json
