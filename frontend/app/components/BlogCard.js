@@ -1,13 +1,17 @@
-import React from 'react';
+import Link from "next/link";
 
-const BlogCard = ({ title, content, imageUrl }) => {
-    return (
-      <div className=" border border-[#2E4053] bg-[#EAFAF1] rounded-lg bg-rounded-lg p-4 shadow-md m-5">
-        <img src={imageUrl} alt={title} className="w-full h-40 object-cover mb-4 rounded-t-lg" />
+//components/BlogCard
+const BlogCard = ({ title, imageUrl, content, blogId }) => {
+  return (
+    <Link href={`/blog/${blogId}`}>
+    <div className="border border-[#2E4053] bg-[#EAFAF1] rounded-lg bg-rounded-lg p-4 shadow-md m-5">
+      <img src={imageUrl} alt={title} className="w-full h-40 object-cover" />
+      <div className="p-4">
         <h2 className="text-xl font-bold text-center mb-2">{title}</h2>
-        <p className="text-gray-700">{content}</p>
       </div>
-    );
-  };
-  
-  export default BlogCard;
+    </div>
+    </Link>
+  );
+};
+
+export default BlogCard;
